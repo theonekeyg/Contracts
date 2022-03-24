@@ -11,6 +11,7 @@ contract("CrodoToken", (accounts) => {
     let stakeToken
     let stake
     const owner = accounts[0]
+    const user1 = accounts[1]
 
     const day = 60 * 60 * 24
     const month = day * 30
